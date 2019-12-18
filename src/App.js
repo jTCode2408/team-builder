@@ -42,8 +42,8 @@ const addNewTM = tm => {
   return (
     <div className="App">
         <h1> Team Members! </h1>
-{/* 
-<Form addNewTM = {addNewTM} /> */}
+
+<Form/>
 <TeamMember teamMembers ={teamMembers} />
 
     </div>
