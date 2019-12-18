@@ -20,7 +20,7 @@ const Form = props => {
             ...member,
             [e.target.name] : e.target.value
         });
-        console.log (e.target.name);
+        console.log(e.target.value);
     };
     
     const submitForm =e => {
@@ -41,7 +41,7 @@ const Form = props => {
 
 <label htmlFor ="email">Email</label>
 <input
-    type ="text"
+    type ="email"
     placeholder = "email"
     onChange ={handleChanges}
     name = "email"

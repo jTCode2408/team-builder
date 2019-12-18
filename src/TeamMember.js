@@ -11,7 +11,6 @@ return (
 {props.teamMembers.map( teamMember => (
     <div className ="member"
     key= {teamMember.id}>
-
    <h2>{teamMember.name}</h2>
     <h3>{teamMember.email}</h3>
     <h3>  {teamMember.role}</h3>
